@@ -1,0 +1,9 @@
+.cart-list {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-list__fallback {
+  color: white;
+  text-align: center;
+}

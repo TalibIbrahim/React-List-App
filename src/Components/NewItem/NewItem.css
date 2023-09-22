@@ -1,0 +1,40 @@
+.new-item {
+  background-color: #ebc64e;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.new-item button {
+  font: inherit;
+  cursor: pointer;
+
+  padding: 1rem 2rem;
+  border: 1px solid #dfb83b;
+  background-color: #eba103;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.new-item button:hover,
+.new-item button:active {
+  transition: all ease-in 0.15s;
+  background-color: #ffa02b;
+  border-color: #ffa02b;
+}
+
+.new-item button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-item button.alternative:hover,
+.new-item button.alternative:active {
+  background-color: #db9600;
+}
