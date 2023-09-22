@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import Cart from "./Cart/Cart";
-import NewItem from "./NewItem/NewItem";
+import Cart from "./Components/Cart/Cart";
+import NewItem from "./Components/NewItem/NewItem";
 
 // const ItemData = []; // The fake data array.
 const LOCAL_STORAGE_KEY = "cartData"; // Define a key for localStorage
